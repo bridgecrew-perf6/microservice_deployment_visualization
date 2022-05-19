@@ -1,0 +1,14 @@
+
+
+.infrastructureCell {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.infrastructureName {
+    font-size: large;
+    text-align: center;
+}

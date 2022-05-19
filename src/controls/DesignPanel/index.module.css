@@ -1,0 +1,21 @@
+
+.container {
+    flex-direction: column;
+    display: flex;
+}
+
+.topContainer {
+    display: flex;
+    height: 600px;
+    flex-grow: 1;
+}
+
+.mainPanel {
+    flex-grow: 1;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+

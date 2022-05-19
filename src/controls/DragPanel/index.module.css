@@ -1,0 +1,17 @@
+
+.container {
+    border: solid 1px black;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cell {
+    background-color: #61dafb;
+    border-radius: 5px;
+    padding:5px;
+    margin-right: 10px;
+}

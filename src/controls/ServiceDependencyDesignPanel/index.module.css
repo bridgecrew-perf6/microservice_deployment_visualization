@@ -1,0 +1,63 @@
+.topContainer {
+    display: flex;
+    height: 600px;
+    flex-grow: 1;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+}
+
+.mainPanel {
+    flex-grow: 1;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.trayContainer {
+    border: solid 1px black;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.cell {
+    background-color: #61dafb;
+    border-radius: 5px;
+    padding:5px;
+    margin-right: 10px;
+}
+
+.nodeContainer {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nodeDependency {
+    font-size: 10px;
+    color: darkgray;
+}
+
+.nodeVersion {
+    color: gray;
+    font-size: 10px;
+}
+
+.infrastructureNodeContainer {
+    background-color: darkgray;
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}

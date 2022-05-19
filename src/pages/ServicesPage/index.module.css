@@ -1,0 +1,76 @@
+
+
+.tube {
+    width: 100%;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.structCell {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.structFieldsContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 10px;
+}
+
+.structName {
+    font-size: large;
+    text-align: center;
+}
+
+.paramName {
+
+}
+
+.paramType {
+    color:lightgray;
+}
+
+.methodCell {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.methodName {
+    font-size: large;
+    text-align: center;
+}
+
+.methodHeader {
+    text-align: center;
+}
+
+.serviceCell {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+.serviceName {
+    font-size: large;
+    text-align: center;
+}
+
+.serviceVersion {
+    color:lightgray;
+    font-size: small;
+    text-align: center;
+}

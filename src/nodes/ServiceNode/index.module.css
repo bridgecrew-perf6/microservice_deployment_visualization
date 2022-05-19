@@ -1,0 +1,16 @@
+
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.version {
+    color: gray;
+    font-size: 10px;
+}
